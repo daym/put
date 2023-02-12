@@ -4,7 +4,9 @@ fetch(document.location.href, {
   credentials: "same-origin",
   redirect: "follow",
   cache: "default",
-  headers: { "Content-Type": document.contentType },
+  headers: { "Content-Type": document.contentType,
+             // TODO: Also pass Previous-Etag
+             "Previous-Last-Modified": document.lastModified },
   body: document.body.outerHTML
 })
   .then(response => {
