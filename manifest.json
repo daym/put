@@ -1,0 +1,17 @@
+{
+  "name": "put",
+  "version": "1.0.0",
+  "description": "HTTP PUT",
+  "permissions": [
+    "activeTab", "scripting", "tabs"
+  ],
+  "options_page": "options.html",
+  "action": {
+    "default_title": "HTTP PUT"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "manifest_version": 3,
+  "author": "Danny Milosavljevic"
+}
