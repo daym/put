@@ -6,7 +6,7 @@ This extension, `put`, adds a button to the tool bar that will send the current 
 
 Use it in conjunction with the Rich Text Editor at https://chrome.google.com/webstore/detail/design-mode-pages-rich-te/omdilgkadhcoliihkpbgpkdcpogkbhah and a web server that accepts HTTP PUT and replaces the resource if it gets one.
 
-This way you can just edit documents right in the browser and then upload them using `put`.
+This way you can just edit documents right in the browser and then upload them using `put`--instead of using an FTP server with an entirely different authentication mechanism and directory structure.
 
 # Installation
 
