@@ -7,7 +7,7 @@
   ],
   "options_page": "options.html",
   "action": {
-    "default_title": "HTTP PUT"
+    "default_title": "Send page via HTTP PUT"
   },
   "background": {
     "service_worker": "background.js"
