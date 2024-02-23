@@ -1,5 +1,4 @@
 //
-// chrome.action.setBadgeText("XXXX")
 
 chrome.action.onClicked.addListener(tab => {
   chrome.scripting.executeScript({
